@@ -1,5 +1,5 @@
 header {
-    background: #bbbbbb;
+    background:#5f6064;
     padding: 20px 0;
 }
 
@@ -18,6 +18,7 @@ nav {
 nav li {
     display: inline;
     margin: 0 0 0 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav a {
@@ -31,6 +32,7 @@ nav a {
 nav a:hover{
     color: #c78c19;
     text-decoration: underline;
+    width: 940px;
 }
 
 .produtos {
@@ -73,6 +75,7 @@ nav a:hover{
 
 .produto-descricao{
     font-size: 18px;
+    color: white;
 }
 
 .produto-preco {
@@ -81,9 +84,20 @@ nav a:hover{
     margin: 10px 0 0;
 }
 
+.produto-descricao:hover{
+    background-color: #5f6064;
+    color: #ffa600;
+    box-sizing:content-box;
+}
+
+.produto-preco:hover{
+    background-color: #5f6064;
+    color: #ffa600;
+}
+
 footer {
     text-align: center;
-    background: url("bg.jpg");
+    background-color:#0D0D0D;
     padding: 40px 0;
 }
 
