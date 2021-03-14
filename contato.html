@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 <body>
      <header>
@@ -17,6 +18,7 @@
                      <li><a href="index.html">Sobre</a></li>
                      <li><a href="produtos.html">Produtos</a></li>
                      <li><a href="contato.html">Fale Conosco</a></li>
+                     <li><a href="carrinho.html"><img src="imagens/cart.png" width="25px"></a></li>
                  </ul>
              </nav>
          </div>
@@ -35,56 +37,26 @@
              <label for="mensagem">Mensagem</label>
              <textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao" required>Mensagem</textarea>
              
-             <fieldset>
-                <legend>Como prefere o nosso contato?</legend>
-                <label for="radio-email"><input type='radio' value='email' id="radio-email"
-                        name="contato">Email</label>
-                <label for="radio-telefone"><input type="radio" id="radio-telefone" value="telefone"
-                        name="contato">Telefone</label>
-                <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp"
-                        name="contato" checked>WhatsApp</label>
-             </fieldset>
-
-            <fieldset>
-                <legend>Qual horário prefere ser atendido?</legend>
-                <select name="" id="">
-                    <option value="">Manhã</option>
-                    <option value="">Tarde</option>
-                    <option value="">Noite</option>
-                </select>
-            </fieldset>
             <label for="" class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
              <input type = 'submit' value = 'Enviar Formulário' class="enviar">
          </form>
-
-         <table>
-             <thead>
-                <tr>
-                    <th>Dia</th>
-                    <th>Horário</th>
-                </tr>
-             </thead>
-             <tbody>
-                <tr>
-                    <td>Segunda</td>
-                    <td>8 ~ 20 horas</td>
-                </tr>
-                <tr>
-                    <td>Quarta</td>
-                    <td>8 ~ 20 horas</td>
-                </tr>
-                <tr>
-                    <td>Sexta</td>
-                    <td>8 ~ 20 horas</td>
-                </tr>
-             </tbody>
-         </table>
      
     </main>
 
      <footer>
          <img src="imagens/logo_footer.png" alt="Logo da Meme Wear">
          <p class="copyright">&copy; Copyright Meme Wear 2021</p>
+         <div class="caixa">
+             <ul class="menu_footer">
+                 <li><a href='sobre.html' class="menu_button">Sobre</a></li>
+                 <li><a href='produtos.html' class="menu_button">Produtos</a></li>
+                 <li><a href='contato.html' class="menu_button">Fale Conosco</a></li>
+             </ul>
+             <ul class="menu_midias">
+                 <li class="button_midia"><a href="https://facebook.com"><img src='imagens/facebook.png'></a></li>
+                 <li class="button_midia"><a href="https://instagram.com"><img src='imagens/instagram.png'></a></li>
+             </ul>
+         </div>
      </footer>
 </body>
 </html>
